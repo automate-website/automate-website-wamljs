@@ -1,0 +1,23 @@
+{
+  "name": "wamljs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "automate.website",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.4.1",
+    "q": "^1.4.1",
+    "webdriverio": "^3.2.2",
+    "moment": "^2.10.6",
+    "lodash-node": "^3.10.1",
+    "minimist": "^1.2.0",
+    "node-uuid": "^1.4.2",
+    "lodash-deep" : "^1.6.0",
+    "chance" : "^0.8.0",
+    "glob" : "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha" : "^2.3.4"
+  }
+}

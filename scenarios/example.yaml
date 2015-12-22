@@ -1,0 +1,30 @@
+title: Parameters
+type: fragment
+steps:
+    - store:
+        loginPageUrl: https://automate.website/app/login
+    - store:
+        loginPageSelectorContainer: "div.login-panel"
+    - store:
+         loginPageHeaderTitle: Sign in
+    - store:
+         siteTimeout: 5000
+---
+title: Go to login page
+type: fragment
+steps:
+    - include: Parameters
+    - url: ${loginPageUrl}
+---
+title: Ensure at login page
+type: fragment
+steps:
+    - waitUntilAnyOfElementsContainsText:
+        selector: ${loginPageSelectorContainer} h1
+        text: ${loginPageHeaderTitle}
+        ms: ${siteTimeout}
+---
+title: User goes to login page and sees login form
+steps:
+    - include: Go to login page
+    - include: Ensure at login page
