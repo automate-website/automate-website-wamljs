@@ -15,7 +15,7 @@ To run all tests located in the `test` directory, execute
 To run specific tests by pattern execute
 
 	mocha -g "<test name pattern>"
-	
 
-	
+
+
 [changelog]: CHANGELOG.md
