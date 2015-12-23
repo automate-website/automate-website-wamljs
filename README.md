@@ -6,7 +6,7 @@ Refer to the [changelog] for recent notable changes and modifications.
 ## Project Structure
 
 ```
-	/lib			# scenario runner, processor, loader and supporting classes 
+	/lib			# scenario runner, processor, loader and supporting functions 
 		/commands   # custom commands
 	/scenarios		# test scenarios that are executed by default
 	/test			# component tests
