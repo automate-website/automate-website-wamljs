@@ -1,5 +1,7 @@
-# Wamljs - Web Automation Markup Language Runner
-This is the web automation markup language runner based on nodejs.
+# WebRobotJS
+The web automation markup language runner.
+
+Refer to the [changelog] for recent notable changes and modifications.
 
 ## Test Execution
 Tests may be executed with the `mocha` framework that has to be installed first
@@ -13,3 +15,7 @@ To run all tests located in the `test` directory, execute
 To run specific tests by pattern execute
 
 	mocha -g "<test name pattern>"
+	
+
+	
+[changelog]: CHANGELOG.md

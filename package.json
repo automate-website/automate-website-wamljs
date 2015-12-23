@@ -1,7 +1,7 @@
 {
-  "name": "wamljs",
+  "name": "webrobotjs",
   "version": "0.0.1",
-  "description": "",
+  "description": "A web automation markup language runner.",
   "main": "index.js",
   "author": "automate.website",
   "license": "MIT",
