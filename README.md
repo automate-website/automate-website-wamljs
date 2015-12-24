@@ -1,5 +1,5 @@
 # WebRobotJS
-The web automation markup language runner based on [webdriver.io].
+The [web automation markup language] runner based on [webdriver.io].
 
 Refer to the [changelog] for recent notable changes and modifications.
 
@@ -118,3 +118,4 @@ To run specific tests by pattern execute
 [changelog]: CHANGELOG.md
 [webdriver.io]: http://webdriver.io
 [webdriver.io API]: http://webdriver.io/api.html
+[web automation markup language]: https://github.com/automate-website/web-automation-markup-language
