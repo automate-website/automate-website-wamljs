@@ -24,6 +24,12 @@ Refer to the [changelog] for recent notable changes and modifications.
 * `$ npm install`
 * `$ node index.js`
 
+## Examples
+
+By default [example] scenario is being executed when calling `$ node index.js`.
+
+For complex examples refer to our [manager-user-acceptance-tests].
+
 ## Options
 
 * `scenarioPath` `{String}` `./scenarios/` Path to a certain scenario file or base directory with scenarios that should be executed.
@@ -151,3 +157,5 @@ To run specific tests by pattern execute
 [web automation markup language]: https://github.com/automate-website/web-automation-markup-language
 [nodejs]: https://nodejs.org
 [firefox]: https://www.mozilla.org/de/firefox/new/
+[example]: scenarios/example.yaml
+[manager-user-acceptance-tests]: https://github.com/automate-website/manager-user-acceptance-tests
