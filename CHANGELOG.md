@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- added basic logging
+- added scenario title activation pattern
+
+### Fixed
+- fixed doable scenario resolution issue
 
 ## [0.0.1]
 ### Added

@@ -12,6 +12,24 @@ Refer to the [changelog] for recent notable changes and modifications.
 	/test			# component tests
 ```
 
+## Options
+
+* `scenarioPath` `{String}` `./scenarios/` Path to a certain scenario file or base directory with scenarios that should be executed.
+
+* `reportPath` `{String}` `./scenario-report.json` Path to the JSON report that is generated after the execution.
+
+* `resolution` `{String}` `800x600` Screen resolution to run the browser with.
+
+* `takeScreenshots` `{Enum: NEVER, ON_FAILURE, ON_EVERY_STEP}` `ON_FAILURE` Determines when screenshots should be taken.
+
+* `browserName` `{String}` `firefox` Name of the browser to work with.
+
+* `screenshotPath` `{String}` `./` Path to the directory where the screenshots should be placed to.
+
+* `scenarioTitlePattern` `{String}` `.*` Regular expression that describes scenarios by title pattern to execute.
+
+* `logLevel` `{Enum: OFF, FATAL, ERROR, WARN, INFO, DEBUG, TRACE, ALL}` `INFO` Defines the log level that is set to all loggers.
+
 ## Commands
 In general all API methods provided by [webdriver.io] are supported. Please consult [webdriver.io API] for further information.
 
