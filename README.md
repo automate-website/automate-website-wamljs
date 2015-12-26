@@ -12,6 +12,18 @@ Refer to the [changelog] for recent notable changes and modifications.
 	/test			# component tests
 ```
 
+## Getting Started
+
+### Prerequisites
+
+* [nodejs]
+* [firefox]
+
+### First Run
+
+* `$ npm install`
+* `$ node index.js`
+
 ## Options
 
 * `scenarioPath` `{String}` `./scenarios/` Path to a certain scenario file or base directory with scenarios that should be executed.
@@ -137,3 +149,5 @@ To run specific tests by pattern execute
 [webdriver.io]: http://webdriver.io
 [webdriver.io API]: http://webdriver.io/api.html
 [web automation markup language]: https://github.com/automate-website/web-automation-markup-language
+[nodejs]: https://nodejs.org
+[firefox]: https://www.mozilla.org/de/firefox/new/
