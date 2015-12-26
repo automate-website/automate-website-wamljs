@@ -1,6 +1,7 @@
 var  _  = require('lodash-node'),
     parseArgs = require('minimist'),
-    ScenarioExecutor = require('./lib/scenario-executor.js');
+    ScenarioExecutor = require('./lib/scenario-executor.js'),
+    logger = require('./lib/util/logger.js')(__filename);
 
 var defaultOptions = {
     'scenarioPath' : './scenarios/',
@@ -8,7 +9,8 @@ var defaultOptions = {
     'resolution' : '800x600',
     'takeScreenshots' : 'ON_FAILURE',
     'browserName' : 'firefox',
-    'screenshotPath' : './'
+    'screenshotPath' : './',
+    'scenarioTitlePattern' : '.*'
 };
 
 var knownArgs = [
@@ -17,10 +19,13 @@ var knownArgs = [
     'browserName',
     'takeScreenshots',
     'resolution',
-    'screenshotPath'
+    'screenshotPath',
+    'scenarioTitlePattern'
 ];
 
 var options = getOptions(); 
+
+logger.debug('Running WebRobotJS with options:', options)
 
 var scenarioExecutor = new ScenarioExecutor(options);
 
