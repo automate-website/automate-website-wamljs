@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - added scenario title activation pattern
 
 ### Fixed
+- fixed error propagation through the promise chain inside scenario loader
 - fixed doable scenario resolution issue
 
 ## [0.0.1]
